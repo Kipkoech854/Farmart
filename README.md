@@ -1,6 +1,8 @@
 🌾 Farmart Frontend
 
 Farmart is a web-based platform that connects farmers directly with buyers to sell animals. This is the frontend of the Farmart application, built with React, Redux Toolkit, React Router, and CSS. It interfaces with the Farmart Flask backend to offer a seamless experience for farmers managing their profiles, animals, and feedback.
+
+
 🚀 Features
 
     🔐 Farmer Authentication (Login/Register)
