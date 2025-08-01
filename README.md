@@ -72,8 +72,8 @@ Farmart is a web-based platform that connects farmers directly with buyers to se
 
     Clone the repository
 
-git clone https://github.com/Kihikah/farmart.git
-cd farmart-frontend
+    -  git clone https://github.com/Kihikah/farmart.git
+    -  cd farmart-frontend
 
 Install dependencies
 
