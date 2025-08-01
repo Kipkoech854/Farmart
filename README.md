@@ -11,6 +11,10 @@ Farmart is a web-based platform that connects farmers directly with buyers to se
 
     🖼️ Image Slideshows for Multiple Animal Images
 
+    👤 User Profile Management (View, Edit, Upload Profile Picture)
+
+    🐄 User Animal Listings (View, Add to cart)
+
     💬 User Feedback View
 
     🔎 Search & Filter Animal Listings
@@ -35,40 +39,51 @@ Farmart is a web-based platform that connects farmers directly with buyers to se
 
 📁 Project Structure
 
-farmart-frontend/
-│
-├── public/
-│   └── index.html
-│
-├── src/
-│   ├── assets/               # Images and static assets
-│   ├── components/           # Reusable UI components
-│   ├── pages/                # Route-level pages
-│   ├── Routes/               # React Router route config
-│   ├── Stylesheets/          # CSS files
-│   ├── App.jsx               # Main app structure
-│   └── main.jsx              # Entry point
-│
-├── .env                     # Environment variables (e.g. API URL)
-├── package.json
-└── vite.config.js
+    farmart-frontend/
+    
+    │
+    ├── public/
+    
+    │   └── index.html
+    │
+    ├── src/
+    
+    │   ├── assets/ 
+    
+    │   ├── components/ 
+    
+    │   ├── pages/ 
+    
+    │   ├── Routes/   
+    
+    │   ├── Stylesheets/
+    
+    │   ├── App.jsx  
+    
+    │   └── main.jsx             
+    │
+    ├── .env   
+    
+    ├── package.json
+    
+    └── vite.config.js
 
 ⚙️ Setup Instructions
 
     Clone the repository
 
-git clone https://github.com/yourusername/farmart-frontend.git
+git clone https://github.com/Kihikah/farmart.git
 cd farmart-frontend
 
 Install dependencies
 
-npm install
+    npm install
 
 Configure environment variables
 
 Create a .env file in the root directory and add:
 
-VITE_API_BASE_URL=https://your-backend-api-url.com
+    VITE_API_BASE_URL=https://the-backend-api-url.com
 
 Run the app
 
